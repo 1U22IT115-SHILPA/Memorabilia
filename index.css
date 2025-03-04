@@ -1,0 +1,119 @@
+/* styles.css */
+html, body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f0f4f8;
+    color: #333;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    flex: 1; /* Pushes the footer to the bottom */
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), 
+                url('https://i.pinimg.com/736x/88/d5/96/88d596ee949724088ccbb37e6c27301f.jpg') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+@font-face {
+    font-family: "CustomFont";
+    src: url("GayaTrial-Italic.otf") format("opentype");
+}
+
+.header h1 {
+    font-size: 3rem;
+    margin: 0;
+    font-family: "CustomFont", sans-serif;
+}
+
+@font-face {
+    font-family: "IT Regular";
+    src: url("ITC Souvenir Light Regular.otf") format("opentype");
+}
+
+.header h2 {
+    font-size: 2.2rem;
+    margin: 0;
+    font-family: "IT Regular", sans-serif;
+}
+
+.header p {
+    font-size: 1.4rem;
+    margin: 10px 0 0;
+    flex: 1;
+    font-family: "IT Regular", sans-serif;
+}
+
+.main-content {
+    padding: 20px;
+    text-align: center;
+    background-color: #e8e1c9;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.features h2 {
+    font-size: 2rem;
+    color: #968ab1;
+    margin-bottom: 10px;
+    font-family: "IT Regular", sans-serif;
+}
+
+.features i {
+    color: #ff6b6b;
+    margin-right: 10px;
+}
+
+.features p {
+    font-size: 1.4rem;
+    color: #cc7777;
+    margin-bottom: 20px;
+    font-family: "IT Regular", sans-serif;
+}
+
+.actions {
+    margin-top: 10px;
+}
+
+.btn {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background: #aa94de;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.btn:hover {
+    background: #7e5cce;
+}
+
+.footer {
+    background: #ffdccc;
+    color: #ff6868;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+}
+
+.small-header {
+    background: linear-gradient(135deg, #6b73ff, #000dff);
+    color: #fff;
+    text-align: center;
+    padding: 30px 20px;
+}
